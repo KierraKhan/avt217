@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-size:0.8em;}
+	#wrapper {width:100%;
+				float:left;
+				margin:20px 20px 0 20px;
+				line-height:1.5em;}
+	header {width:100%; 
+			float:left;
+			position:fixed;}
+	#exercise {width: 65%;
+				float:left;
+				margin-right: 0px;}
+	.weekly {width:65%;
+				float:left;
+				margin-right:0px;
+				-moz-column-count:2;
+				-moz-column-gap:1em;
+				-webkit-column-count:2;
+				-webkit-column-gap:1em;
+				column-count:2;
+				column-gap:1em;}
+	.projects {width:30%;
+				float:left;
+				margin-left:3%;
+				margin-right:2%;
+		/*margin-top:-38px;*/}
+	p h1 h2 h3 h4 dd dt dl {font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+				margin-bottom:0px;
+				padding-bottom:0px;
+				margin-top:0px;
+				padding-top:0px;}
+	h1 {font-size:4em;
+		font-weight:lighter;
+		color:#C48189;}
+	h2 {font-size:1.5em;
+		font-weight:lighter;
+		color:#E8ADAA;}
+	h3 {font-size:1.25em;
+		font-weight:normal;
+		margin-top:auto;
+		color:#C48189;}
+	dt {font-size:1em;
+		font-weight:normal;
+		color:#E8ADAA;
+		margin-left:18px;
+		margin-top:8px;
+		padding-top:8px;}
+	dd {font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+		font-size:.9em;
+		font-weight:normal;
+		margin-left:40px;
+		margin-top:1px;
+		padding-top:1px;}
+	h6 {font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+		font-size:12px;
+		font-weight:normal;
+		margin-left:44px;
+		margin-top:1px;
+		padding-top:1px;}
+	a:link {color:#000000;
+			text-decoration:none;}
+	a:hover {color:#DE7188;
+			text-decoration:underline;}
+	a:visited {color:#999;
+				text-decoration:none}
