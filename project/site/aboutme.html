@@ -3,9 +3,24 @@
 <head>
 <meta charset="utf-8">
 <title>KK About me</title>
-	<style> p.groove {border-style: groove;}
+	<style> 
+		
+	#info-block section {border: 2px solid #cae3da;}
+
+	.file-marker > div {padding:0 10px;height: 110px;margin-top: -0.8em;}
+		
+	.box-title {background: white;display: inline-block;font-family: Perpetua, "Perpetua Titling MT", "cursive"; width:66.3%; text-align:center; line-height:0.2em; margin:7px;font-style:italic; color:#00303f;font-size: 30px;background-color:white; }
+		
 	.topleft {position: absolute; top: 8px; left: 16px; font-size: 20px;}
+		
 	header {font-family:Perpetua, "Perpetua Titling MT", "cursive"; text-align:center; font-style: italic; font-size:20px;}
+		
+	h2 {font-family: Perpetua, "Perpetua Titling MT", "cursive"; width:66.3%; text-align:center; border-bottom: solid #cae3da; line-height:0.2em; margin:10px 0 20px;font-style:italic; color:#00303f;font-size: 30px;} 
+		
+	h2 span { background:#fff; padding:0 10px; }
+		
+	p {padding-bottom: 10px; padding-left: 10px; padding-right: 10px; padding-top: 10px; font-family:Perpetua, "Perpetua Titling MT", "cursive", Script; font-size:18px; }
+		
 	body {font-family:Perpetua, "Perpetua Titling MT", "cursive"; text-align:center;}
 	
 	a {color:#cdac81;}
@@ -20,29 +35,56 @@
 	
 	#about{text-align: right;}
 	
+	#logo {margin-left: auto; display: inline; top:15px;}	
+		
+	.topleft {position: absolute; top: 65px; left: 170px; font-size: 25px;}
+	
+	.topright {position: absolute; top: 65px; right: 170px; font-size: 25px;}
+	
 	a:link {color:#231f20;
 			text-decoration:none;}
 		
-	a:hover {color:#cdac81;
-			text-decoration:underline;}
-	aside { width: 30%; padding-left: 15px; margin-left: 15px; float: left;}
+	a:hover {color:#cdac81;text-decoration:underline;}
+		
+	aside { width: 30%; padding-left: 15px; margin-right: 15px; float: right;}
 		
 	footer {font-family:Perpetua, "Perpetua Titling MT", "cursive";text-align:left; background-color:#cdac81; font-size:20px;}
+		
+	
+		fieldset{border:solid;border-color:#cae3da;}	
+		
+		legend {background:#fff; padding:0 10px; font-family: Perpetua, "Perpetua Titling MT", "cursive"; text-align:center; margin:10px 0 20px;font-style:italic; color:#00303f;font-size: 35px;border-color:#cae3da;}
+		
+		
+	section {float:left;}
+		
 	</style>
 </head>
 
 <body>
-	<header><h2><ul>
-		<li><a href="#portfolio"><a href="portfolio.html">Portfolio</a></a></li><li><a href="#home"><a href="homepage.html"><div id="logo"><img src="img/KK logo.png" alt="logo"></div></a></a></li><li><a href="#about"><a href="aboutme.html">About</a></a></li>
+	<header><h3><ul>
+		<li><div class="topleft"><a href="#portfolio"><a href="portfolio.html">Portfolio</a></a></div></li>
+		<li><a href="#home"><a href="homepage.html"><div id="logo"><img src="img/KK logo.png" alt="logo"></div></a></a></li>
+		<li><div class="topright"><a href="#about"><a href="aboutme.html">About</a></a></div></li>
 
-	</ul></h2></header>
+	</ul></h3></header>
 	
-	<aside><h3>About Me</h3>
-	<p>My name is Kierra Khan and I am a Sophomore Graphic Design student at George Mason University. While I am studying grafic design, I love to create with many different medias to display my personality and skills. Stay tuned for more works! Thanks for visiting my website!</p><h4>Resume</h4></aside>
+	<aside><img src="img/aboutmeportrait.png" alt="portrait"></aside>
+	<aside id="info-block"><section class="file-marker"><div>
+		<div class="box-title">About Me</div> <div class="box-contents">
+        <div id="audit-trail"><p class="three">My name is Kierra Khan and I am a Sophomore Graphic Design student at George Mason University. While I am studying grafic design, I love to create with many different medias to display my personality and skills. Stay tuned for more works! Thanks for visiting my website!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</aside>
+	<p class="three"></p>
 	
+	<h4>Resume</h4>
 	
-	<h3>Contact Me</h3>
-	<h4>Email</h4>
+	<br>
+	<h2><span>Contact Me</span></h2>
+	<p class="groove"><h4>Email</h4></p>
 	<h4>Name</h4>
 	<h4>Message</h4>
 	<h4>Submit</h4>
@@ -50,6 +92,11 @@
 	<br>
 	<br>
 	<br>
+	
+	<fieldset> <legend>Title</legend>hellow world</fieldset><br>
+	<br>
+	
+	
 	<footer><img src="img/instagram logo.png" alt="instagram">
 	<img src="img/email logo.png" alt="email"><img src="img/linkedin logo.png" alt="linkedin">
 		<footer style="color:white">@Kierra Khan</footer></footer>
